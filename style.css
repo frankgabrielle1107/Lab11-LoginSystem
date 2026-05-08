@@ -1,6 +1,6 @@
 body{
     font-family: Arial;
-    background: #ffdff7;
+    background: linear-gradient(to right, #ffd6f6, #f5d0ff);
     display:flex;
     justify-content:center;
     align-items:center;
@@ -9,23 +9,36 @@ body{
 
 .box{
     background:white;
-    padding:30px;
-    width:300px;
-    border-radius:15px;
+    padding:35px;
+    width:320px;
+    border-radius:20px;
     text-align:center;
+    box-shadow:0 0 15px rgba(0,0,0,0.2);
+}
+
+h1{
+    color:purple;
 }
 
 input{
     width:100%;
-    padding:10px;
+    padding:12px;
     margin-top:10px;
+    border-radius:10px;
+    border:1px solid #ccc;
 }
 
 button{
     margin-top:15px;
-    padding:10px 20px;
+    padding:12px 25px;
     background:purple;
     color:white;
     border:none;
-    border-radius:5px;
+    border-radius:10px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#b300b3;
 }
